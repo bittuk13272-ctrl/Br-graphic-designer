@@ -235,8 +235,20 @@ box-shadow:0 0 20px gold;
 }
 
 /* CONTACT */
+/* CONTACT */
 
 #contact{
+padding:40px 20px;
+text-align:center;
+}
+
+.contact-box{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
 .contact-box .btn{
 display:inline-block;
 padding:15px 35px;
@@ -246,6 +258,10 @@ text-decoration:none;
 border-radius:35px;
 font-weight:bold;
 margin:10px;
+}
+
+.contact-box .btn:hover{
+box-shadow:0 0 20px gold;
 }
 
 .contact-box .btn:hover{
