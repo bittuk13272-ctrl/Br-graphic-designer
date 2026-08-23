@@ -89,7 +89,8 @@ My Services
 
 <i class="fa-solid fa-pen-nib"></i>
 
-<h3>Logo Design</h3>
+<h3>Banner Design</h3>
+</div>
 
 </div>
 
@@ -114,3 +115,29 @@ My Services
 <i class="fa-solid fa-layer-group"></i>
 
 <h3>Banner Design</h
+<script>
+const images = document.querySelectorAll("img");
+const popup = document.getElementById("popup");
+const popupImg = document.getElementById("popup-img");
+const close = document.querySelector(".close");
+
+images.forEach(img => {
+  img.onclick = () => {
+    popup.style.display = "flex";
+    popupImg.src = img.src;
+  };
+});
+
+close.onclick = () => {
+  popup.style.display = "none";
+};
+
+popup.onclick = (e) => {
+  if (e.target === popup) {
+    popup.style.display = "none";
+  }
+};
+</script>
+
+</body>
+</html>
