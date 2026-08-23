@@ -122,10 +122,7 @@ font-weight:bold;
 transition:.3s;
 }
 
-.hero-btn a:hover{
-transform:translateY(-5px);
-box-shadow:0 0 20px gold;
-}
+
 /* PREMIUM HERO */
 
 .hero{
