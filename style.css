@@ -126,7 +126,77 @@ transition:.3s;
 transform:translateY(-5px);
 box-shadow:0 0 20px gold;
 }
+/* PREMIUM HERO */
 
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:120px 20px;
+background:radial-gradient(circle at top,#1b1b1b 0%,#000 70%);
+}
+
+.hero-logo{
+width:170px;
+margin-bottom:35px;
+filter:drop-shadow(0 0 30px rgba(255,215,0,.25));
+}
+
+.hero h1{
+font-size:90px;
+font-weight:900;
+letter-spacing:-5px;
+color:#fff;
+margin:0;
+}
+
+.brand{
+font-size:30px;
+letter-spacing:12px;
+color:#bfbfbf;
+margin-top:15px;
+text-transform:uppercase;
+}
+
+.owner{
+font-size:22px;
+color:#FFD700;
+margin-top:20px;
+letter-spacing:4px;
+}
+
+.tagline{
+margin-top:28px;
+font-size:18px;
+color:#8f8f8f;
+line-height:34px;
+letter-spacing:2px;
+}
+
+.hero-btn{
+margin-top:45px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.hero-btn a{
+padding:16px 40px;
+background:#FFD700;
+color:#000;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+transition:.35s;
+}
+
+.hero-btn a:hover{
+transform:translateY(-6px);
+box-shadow:0 0 30px rgba(255,215,0,.5);
+}
 .title{
 text-align:center;
 font-size:45px;
