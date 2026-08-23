@@ -63,10 +63,7 @@ justify-content:center;
 align-items:center;
 text-align:center;
 padding:120px 20px 60px;
-background:
-linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
-url("Picsart_26-08-23_08-28-49-799.png") center/cover;
-}
+background: #000;
 
 .hero-logo{
 width:130px;
